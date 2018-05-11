@@ -11,7 +11,7 @@ askText = singleLine([[
 local progress = "";
 
 function sws(delay, msg)
-  sleepWithStatus(delay, progress .. "\n" .. msg, 0xFFFFFFff, true);
+  sleepWithStatus(delay, progress .. "\n" .. msg, 0xFFFFFFff);
 end
 
 function findImage(img)

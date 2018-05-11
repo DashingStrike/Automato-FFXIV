@@ -1,0 +1,10 @@
+*.000
+*.001
+*.002
+*.003
+*.004
+*.005
+*~
+data/last_updated.bin
+data/manifest.txt
+data/version.txt
